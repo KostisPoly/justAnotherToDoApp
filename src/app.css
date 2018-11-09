@@ -1,0 +1,27 @@
+h1, h2 {
+    color: red;
+    width: 35%;
+    margin: 10px auto;
+}
+.done {
+    text-decoration: line-through;
+    color: red;
+    opacity: .8;
+}
+.list-item:hover span{
+    opacity:1;
+}
+.list span {
+    float: right;
+    color: red;
+    opacity:0;
+}
+.list {
+    width: 35%;
+    margin: 0 auto;
+    list-style: none;
+}
+.form {
+    width: 35%;
+    margin: 0 auto;
+}
